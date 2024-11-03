@@ -1,0 +1,42 @@
+INSERT INTO Auteurs (id_auteur, nom_auteur, prenom_auteur) VALUES
+(1, 'Hugo', 'Victor'),
+(2, 'Verne', 'Jules'),
+(3, 'Dumas', 'Alexandre'),
+(4, 'Zola', 'Émile');
+
+INSERT INTO Categories (id_categorie, nom_categorie) VALUES
+(1, 'Classique'),
+(2, 'Science-fiction'),
+(3, 'Histoire'),
+(4, 'Roman');
+
+INSERT INTO Livres (id_livre, titre, date_publication, id_categorie, id_auteur) VALUES
+(1, 'Les Misérables', '1862-01-01', 1, 1),   
+(2, 'Vingt Mille Lieues sous les mers', '1870-01-01', 2, 2),
+(3, 'Les Trois Mousquetaires', '1844-01-01', 1, 3),  
+(4, 'Nana', '1880-01-01', 4, 4); 
+
+INSERT INTO Membres (id_membre, nom_membre, prenom_membre, email_membre) VALUES
+(1, 'Dupont', 'Jean', 'jean.dupont@example.com'),
+(2, 'Martin', 'Marie', 'marie.martin@example.com'),
+(3, 'Durand', 'Pierre', 'pierre.durand@example.com'),
+(4, 'Lefevre', 'Sophie', 'sophie.lefevre@example.com');
+
+INSERT INTO Emprunter (date_emprunt, date_retour, id_membre, id_livre) VALUES
+('2024-01-10', '2024-02-10', 1, 1),   
+('2024-03-01', NULL, 2, 2),           
+('2024-01-15', '2024-02-15', 3, 3),   
+('2024-04-20', '2024-05-20', 4, 4);   
+
+INSERT INTO Ecrit (id_auteur, id_livre) VALUES
+(1, 1), 
+(2, 2), 
+(3, 3), 
+(4, 4); 
+
+INSERT INTO Appartient_A (id_categorie, id_livre) VALUES
+(1, 1),  
+(2, 2),  
+(1, 3),  
+(4, 4);  
+

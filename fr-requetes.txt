@@ -1,0 +1,12 @@
+1. Lister tous les livres avec leur auteur principal
+2. Lister tous les emprunts, en incluant le nom du membre et le titre du livre
+3. Afficher les livres appartenant à la catégorie "Sciences"
+4. Afficher le nombre de livres empruntés par chaque membre
+5. Lister les auteurs ayant écrit plus de 3 livres
+6. Lister les livre non emrpuntés
+7. Afficher les détails de l'emprunt du livre d'id 7
+8. Lister les livres avec leur(s) catégorie(s) triés par date de publication
+9. Compter le nombre de livres par catégorie
+10. Lister les livres et auteur(s) associé(s)
+11. Afficher les livres qui ont été empruntés entre le 2024-01-01 et le 2024-06-31
+12. Lister les membres n'ayant jamais emprunté des livres

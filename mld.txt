@@ -1,0 +1,8 @@
+Livres(__id_livre__, date_publication, id_categorie#, id_auteur#)
+Auteurs(__id_auteur__, nom_auteur, prenom_auteur)
+Categories(__id_categorie__, nom_categorie)
+Membres(__id_membre__, nom_membre, prenom_membre, email_membre)
+Emprunter(date_emprunt, date_retour, id_membre#, id_livre#)
+Ecrit(id_auteur#, id_livre#)
+Appartient_A(id_categorie#, id_livre#)
+
