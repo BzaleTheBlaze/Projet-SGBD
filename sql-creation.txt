@@ -31,7 +31,7 @@ CREATE TABLE Emprunter (
     date_retour DATE,
     id_membre INTEGER,
     id_livre INTEGER,
-    PRIMARY KEY (date_emprunt, id_membre, id_livre),
+    PRIMARY KEY (id_membre, id_livre),
     FOREIGN KEY (id_membre) REFERENCES Membres(id_membre),
     FOREIGN KEY (id_livre) REFERENCES Livres(id_livre),
     CHECK (date_retour IS NULL OR date_retour >= date_emprunt)
